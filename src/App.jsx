@@ -83,6 +83,7 @@ function App() {
       Current Game History
       </h2>
         <History history={history} moveTo={moveTo} currentMove={currentMove} />
+      <div className="bg-balls" />
       </div>
     
   );
